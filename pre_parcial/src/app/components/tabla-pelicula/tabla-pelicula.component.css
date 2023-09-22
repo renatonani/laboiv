@@ -1,0 +1,43 @@
+/* tabla-pelicula.component.css */
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el contenido de la tabla */
+  }
+  
+  /* Estilos para el encabezado de la tabla */
+  th {
+    background-color: #ff3333; /* Rojo oscuro */
+    color: white;
+    padding: 8px;
+    text-align: middle;
+    vertical-align: middle; /* Centrar el contenido verticalmente */
+    font-size: 20px; /* Aumentar el tamaño de fuente de las cabeceras */
+  }
+  
+  /* Estilos para las filas pares de la tabla */
+  tr:nth-child(even) {
+    background-color: #ff6666; /* Rojo medio */
+  }
+  
+  /* Estilos para las filas impares de la tabla */
+  tr:nth-child(odd) {
+    background-color: #ff9999; /* Rojo claro */
+  }
+  
+  /* Estilos para las celdas de la tabla */
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle; /* Centrar el contenido verticalmente */
+  }
+  img {
+    max-width: 200px; /* Ajusta el tamaño máximo de las imágenes según tus preferencias */
+    max-height: 200px;
+    border: 2px solid #ff3333; /* Borde rojo */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  

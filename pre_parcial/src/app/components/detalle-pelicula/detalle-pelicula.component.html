@@ -1,0 +1,11 @@
+<div class="detalle-pelicula-container">
+  <h2>Detalles de la Película</h2>
+  <p><strong>Nombre:</strong> {{ selectedPelicula.nombre }}</p>
+  <p><strong>Tipo:</strong> {{ selectedPelicula.tipo }}</p>
+  <p><strong>Fecha de Estreno:</strong> {{ selectedPelicula.fechaEstreno }}</p>
+  <p><strong>Cantidad de Público:</strong> {{ selectedPelicula.cantidadPublico }}</p>
+  <p><strong>Foto de Portada:</strong></p>
+  <img *ngIf="selectedPelicula.fotoPelicula" [src]="selectedPelicula.fotoPelicula" alt="Foto de la película" />
+</div>
+
+  

@@ -1,0 +1,19 @@
+/* Estilos para el contenedor principal */
+.detalle-pelicula-container {
+    background-color: #ff3333; /* Rojo oscuro */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Estilos para la imagen */
+  img {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen según tus preferencias */
+    border: 2px solid #ff6666; /* Borde rojo medio */
+    margin-bottom: 20px; /* Espacio inferior para separar la imagen del texto */
+    align-self: center; /* Centrar la imagen horizontalmente dentro del contenedor */
+  }
+  
